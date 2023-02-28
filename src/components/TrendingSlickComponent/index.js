@@ -36,6 +36,7 @@ class TrendingSlickComponent extends Component {
     }
 
     const response = await fetch(getTrendingMoviesApiUrl, options)
+
     if (response.ok === true) {
       const data = await response.json()
       //   console.log(data)

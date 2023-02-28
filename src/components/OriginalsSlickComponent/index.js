@@ -56,6 +56,7 @@ class OriginalsSlickComponent extends Component {
 
   renderOriginalSlick = () => {
     const {originalMoviesList} = this.state
+    console.log(originalMoviesList)
     return <SlickComponent moviesList={originalMoviesList} />
   }
 
